@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Brandon Phillips</h1>
+        <h1>Shall We Play a Game?</h1>
+        <div class="tabs">
+            <ul>
+                <li class="trigger" data-target="#coinToss">Coin Toss</li>
+                <li class="trigger" data-target="#guessingGame">Guessing Game</li>
+
+            </ul>
+            <div id="coinToss" class="content">
+                <h3>Toss a Coin</h3>
+                <div class="playerButtons">
+                    <button id="guessHeads">Heads</button>
+                    <button id="guessTails">Tails</button>
+                </div>
+                <img id="coinTossImg" src="CoinTossImages/both.jpg">
+                <p id="displayChoice"></p>
+                <p id="displayResult"></p>
+                <p id="playerMessage"></p>
+                <br>
+                <p id="displayScore"></p>
+            </div>
+            <div id="guessingGame" class="content">
+                <h3>Number guessing game</h3>
+                <p>I have selected a random number between 1 and 100.<br />
+                    See if you can guess it in 10 turns or fewer.<br />
+                    I'll tell you if your guess was too high or too low.</p>
+                <form class="guess-form">
+                    <label for="guessField">Enter a guess:</label>
+                    <input class="guessField">
+
+                </form>
+                <p class="guesses"></p>
+                <p>
+                    <span class="guessingResult"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="tabs.js"></script>
+    <script src="cointoss.js"></script>
+    <script src="guessinggame.js"></script>
+</body>
+
+</html>

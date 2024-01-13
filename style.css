@@ -1,0 +1,75 @@
+:root {
+    --grey1: #c3e0d8;
+    --grey2: #768a84;
+    --grey3: #2f3836;
+    --grey4: #232b28;
+    --grey5: #161717;
+    --green1: #77ed8c;
+    --green2: #53a662;
+    --green3: #28382b;
+    --green4: #243127;
+    --green5: #2f3b31;
+    --gold1: #f7d23e;
+    --gold2: #c7a930;
+    --gold3: #aa9833;
+    --gold4: #52440c;
+}
+
+body {
+    display: flex;
+    /* width: auto; */
+    text-align: center;
+    justify-content: center;
+    background-color: var(--grey5);
+    color: var(--green2);
+}
+
+#header_container {}
+
+#header_title {
+    font-size: 8rem;
+}
+
+#edu_container {
+    width: 100%;
+    margin-top: 20rem;
+}
+
+#edu_title {
+    font-size: 3rem;
+    border-bottom: var(--green2);
+    border-bottom-style: solid;
+
+}
+
+#edu_content {
+    background-color: var(--green4);
+
+}
+
+#edu_courseList {}
+
+.edu_course {
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+a {
+    color: var(--gold2);
+}
+
+a:hover {
+    color: var(--gold1);
+}
+
+a:visited {
+    color: var(--green2);
+}
+
+a:active {
+    color: var(--green1);
+}

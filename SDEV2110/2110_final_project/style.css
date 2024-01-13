@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  color: darkblue;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: x-large;
+  color: darkblue;
+}
+
+button {
+  font-size: large;
+  margin-bottom: 25px;
+}
+
+.tabs>ul {
+  padding: 0;
+}
+
+.tabs .trigger {
+  list-style-type: none;
+  padding: 10px;
+  background: lightgray;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs .trigger.active {
+  background: darkblue;
+  color: white;
+}
+
+.tabs .content {
+  background: white;
+  color: black;
+  font-size: large;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: none;
+}
+
+.tabs .content.active {
+  display: block;
+}
+
+.guessingResult {
+  padding: 3px;
+  font-size: xx-large;
+}
+
+.tooBig {
+  background-color: pink;
+  color: blue;
+  font-size: xx-large;
+}
+
+.tooSmall {
+  background-color: lightblue;
+  color: blue;
+  font-size: xx-large;
+}
+
+.tooMany {
+  background-color: red;
+  color: black;
+  font-size: xx-large;
+}
+
+.justRight {
+  background-color: lightgreen;
+  color: green;
+  font-size: xx-large;
+}
