@@ -1,17 +1,80 @@
-.container {
-    align-items: center;
+:root {
+    --grey1: #c3e0d8;
+    --grey2: #768a84;
+    --grey3: #2f3836;
+    --grey4: #232b28;
+    --grey5: #161717;
+    --green1: #77ed8c;
+    --green2: #53a662;
+    --green3: #28382b;
+    --green4: #243127;
+    --green5: #2f3b31;
+    --gold1: #f7d23e;
+    --gold2: #c7a930;
+    --gold3: #aa9833;
+    --gold4: #52440c;
+}
+
+body {
+    color: var(--green1);
+    background-color: var(--grey5);
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
-.title_container {
-
+.title {
+    font-size: 4rem;
 }
 
-.desc_container {
-
+.title a {
+    font-size: 1.5rem;
 }
 
-.projects_container {
+.description {
+    color: var(--green2);
+    font-size: 2rem;
+    line-height: 1.5;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.projects {
+    margin-top: 20rem;
+    color: var(--green2);
+    font-size: 1.75rem;
+}
+
+.projects p {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: var(--green2) solid 2px;
+}
+
+
+
+
+
+/* linksj */
+a {
+    color: var(--gold2);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--gold1);
+}
+
+a:visited {
+    color: var(--gold3);
+}
+
+a:hover:visited {
+    color: var(--gold1)
+}
+
+a:active {
+    color: var(--green1);
 }

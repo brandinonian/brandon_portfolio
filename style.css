@@ -17,49 +17,41 @@
 
 body {
     display: flex;
-    /* width: auto; */
     text-align: center;
     justify-content: center;
     background-color: var(--grey5);
-    color: var(--green2);
+    color: var(--green1);
 }
 
-#header_container {}
-
-#header_title {
+.title {
     font-size: 8rem;
 }
 
-#edu_container {
-    width: 100%;
-    margin-top: 20rem;
+.edu_container {
+    margin-top: 10rem;
 }
 
-#edu_title {
-    font-size: 3rem;
-    border-bottom: var(--green2);
-    border-bottom-style: solid;
-
+.edu_title {
+    color: var(--green2);
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--green2);
 }
 
-#edu_content {
-    background-color: var(--green4);
-
-}
-
-#edu_courseList {}
-
-.edu_course {
-    margin-top: 2rem;
+.course {
+    font-size: 2rem;
+    padding: 5rem 8rem 5rem 8rem;
+    border-bottom: 2px solid var(--green2);
+    text-align: justify;
 }
 
 
 
 
-
-
+/* linksj */
 a {
     color: var(--gold2);
+    text-decoration: none;
 }
 
 a:hover {
@@ -67,7 +59,11 @@ a:hover {
 }
 
 a:visited {
-    color: var(--green2);
+    color: var(--gold3);
+}
+
+a:hover:visited {
+    color: var(--gold1)
 }
 
 a:active {
