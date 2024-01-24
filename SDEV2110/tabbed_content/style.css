@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(15, 15, 24);
+  color: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.tabs>ul {
+  padding: 0;
+}
+
+.tabs .trigger {
+  list-style-type: none;
+  padding: 10px;
+  background: #353a33;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs .trigger.active {
+  background: darkcyan;
+  color: white;
+}
+
+.tabs .content {
+  background: #353a33;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: none;
+}
+
+.tabs .content.active {
+  display: block;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}

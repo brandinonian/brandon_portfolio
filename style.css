@@ -21,10 +21,12 @@ body {
     justify-content: center;
     background-color: var(--grey5);
     color: var(--green1);
+    font-family: Inconsolata, monospace;
 }
 
 .title {
     font-size: 8rem;
+    margin-bottom: 20rem;
 }
 
 .edu_container {

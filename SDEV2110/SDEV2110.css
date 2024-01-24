@@ -16,25 +16,32 @@
 }
 
 body {
-    color: var(--green1);
-    background-color: var(--grey5);
-    text-align: center;
     display: flex;
+    text-align: center;
     justify-content: center;
+    background-color: var(--grey5);
+    color: var(--green1);
+    font-family: Inconsolata, monospace;
 }
 
 
 .title {
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-bottom: 20rem;
 }
 
 .title a {
     font-size: 1.5rem;
 }
 
+.title div {
+    font-size: 2rem;
+}
+
 .description {
     color: var(--green2);
     font-size: 2rem;
+    text-align: left;
     line-height: 1.5;
     max-width: 80rem;
     margin-left: auto;
@@ -42,7 +49,10 @@ body {
 }
 
 .projects {
-    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40rem;
     color: var(--green2);
     font-size: 1.75rem;
 }
@@ -50,7 +60,17 @@ body {
 .projects p {
     font-size: 3rem;
     padding-bottom: 2rem;
+    width: 100%;
     border-bottom: var(--green2) solid 2px;
+}
+
+.projects a {
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 3rem;
+    max-width: 50%;
+    border-radius: 5px;
+    border: var(--grey2) solid 2px;
 }
 
 
