@@ -61,7 +61,7 @@ body {
     font-size: 3rem;
     padding-bottom: 2rem;
     width: 100%;
-    border-bottom: var(--green2) solid 2px;
+    border-bottom: 2px solid var(--grey2);
 }
 
 .projects a {

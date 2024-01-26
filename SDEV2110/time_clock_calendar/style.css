@@ -1,0 +1,31 @@
+body {
+    background: #2975429c;
+}
+
+span {
+    padding: 1rem;
+    background: #b3b3b3;
+    border-radius: .25em;
+}
+
+div {
+    text-align: center;
+    margin: 10rem;
+}
+
+a {
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
