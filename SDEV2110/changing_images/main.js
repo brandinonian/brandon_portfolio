@@ -1,3 +1,8 @@
+// Note: 
+// First load is slow on the current server.
+// For the sake of demonstrating my school
+// curriculum I'm leaving it as is.
+
 const lightbulb = document.querySelector('#lightbulb');
 const pumpkins = document.querySelector('#pumpkins');
 
