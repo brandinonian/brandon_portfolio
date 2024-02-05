@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(2, 20, 20);
+    color: lightgreen;
+}
+
+.container {
+    max-width: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, span, p, label {
+    color: lightcoral;
+}

@@ -1,0 +1,12 @@
+body {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: lightblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.input {
+    font-size: large;
+}

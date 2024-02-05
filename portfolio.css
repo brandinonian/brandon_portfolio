@@ -128,7 +128,7 @@ body {
 }
 
 .edu_projects a {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10rem;
     padding: 3rem;
     max-width: 50%;
@@ -143,20 +143,20 @@ body {
     }
 
     .page_title h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .page_description {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding-inline: 1rem;
     }
 
     .edu_projects h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .edu_projects a {
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 4rem;
     }
 }

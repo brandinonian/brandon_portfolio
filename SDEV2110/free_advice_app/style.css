@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(51, 63, 70);
+}
+
+.container {
+    text-align: center;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+h1 {
+    color: lightsalmon;
+    font-size: 6rem;
+    margin: 25px;
+}
+
+#newAdviceButton {
+    background-color: rgb(100, 100, 100);
+    color: lightcyan;
+    font-size: 3rem;
+    padding: 25px;
+    margin: 25px;
+    border: none;
+    border-radius: 1rem;
+}
+
+.results {
+    color: lightskyblue;
+    font-size: 2rem;
+    margin: 25px;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: limegreen;
+}
