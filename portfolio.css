@@ -53,10 +53,17 @@ body {
 }
 
 .section_content {
+    display: flex;
+    flex-direction: column;
     font-size: 2.5rem;
     padding: 5rem 8rem 5rem 8rem;
     border-bottom: 2px solid var(--green2);
     text-align: justify;
+    text-wrap: nowrap;
+}
+
+.section_content a {
+    margin: 2rem 0;
 }
 
 @media screen and (max-width: 1000px) {
