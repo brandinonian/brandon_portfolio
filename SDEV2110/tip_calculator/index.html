@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="calculator">
+        <a href="../SDEV2110.html">Back</a>
+        <h1>Tip Calculator</h1>
+        <input type="text" id="nameField" placeholder="your name">
+        <label for="nameField"></label>
+        <br>
+        <input type="password" id="passField" placeholder="password">
+        <label for="passField"></label>
+        <br>
+        <input type="text" id="costField" placeholder="meal cost">
+        <label for="costField"></label>
+        <p>Quality of Service</p>
+        <input type="radio" name="quality" value="15" checked>
+        <label for="15">OK (15% tip)</label>
+        <br>
+        <input type="radio" name="quality" value="18">
+        <label for="18">Good (18% tip)</label>
+        <br>
+        <input type="radio" name="quality" value="20">
+        <label for="20">Very Good (20% tip)</label>
+        <br>
+        <input type="radio" name="quality" value="22">
+        <label for="22">Excellent (22% tip)</label>
+        <br>
+        <input type="submit" value="Submit">
+        <div id="result"></div>
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>
